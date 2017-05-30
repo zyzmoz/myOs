@@ -1,0 +1,10 @@
+<div *ngIf="customers">
+  <input #searchStr>
+  Costumers
+  <div *ngFor="let customer of customers">
+    <h3>{{customer.name}}</h3>
+    <h4>{{customer.phone}} / {{customer.mobile}} / {{customer.email}}</h4>
+  </div>
+
+  
+</div>

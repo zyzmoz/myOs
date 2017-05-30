@@ -11,6 +11,7 @@ export interface Customer {
     city: City,
     complement: string,
     phone: number,
-    mobile: number
+    mobile: number,
+    email: string,
     acitve: boolean    
 }
